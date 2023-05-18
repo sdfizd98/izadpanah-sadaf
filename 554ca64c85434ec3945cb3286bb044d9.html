@@ -1,0 +1,2257 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>5c923bfb088d40eb9442c5b538cbe4a5</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="r8V4YlBfF_Iy" class="cell markdown" id="r8V4YlBfF_Iy">
+<h1 id="데이터분석기초-10주차">데이터분석기초 10주차</h1>
+</div>
+<div id="9fd0e709" class="cell markdown" id="9fd0e709">
+<h1 id="1관련-패키지-설치하기">1.관련 패키지 설치하기</h1>
+</div>
+<div id="28469622" class="cell code" id="&quot;28469622&quot;">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> locale     <span class="co">#kiwi는 형태소 분석을 할때 사용하는 패키지에요</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>locale.getpreferredencoding <span class="op">=</span> <span class="kw">lambda</span>: <span class="st">&quot;UTF-8&quot;</span></span></code></pre></div>
+</div>
+<div id="981ed0de" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+data-executionInfo="{&quot;elapsed&quot;:55108,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408042797,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="981ed0de" data-outputId="15a8eb40-f435-4f37-b67b-6ddb66954988">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install kiwipiepy</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pandas  <span class="co">#데이터 핸들링 할때 사용하는 패키지</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install seaborn</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install matplotlib  <span class="co">#그래프를 그릴때 사용하는 패키지</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install wordcloud <span class="co">#워드 클라우드를 네모난 형태가 아니라 이제 구름의 형태 혹은 자신이 원하는 다른 형태로 변경하기 위해서 그림의 육관을 마스크드로 잡아요</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install Pillow <span class="op">--</span>upgrade  </span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install numpy</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>sudo apt<span class="op">-</span>get install <span class="op">-</span>y fonts<span class="op">-</span>nanum</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>sudo fc<span class="op">-</span>cache <span class="op">-</span>fv</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>rm <span class="op">~/</span>.cache<span class="op">/</span>matplotlib <span class="op">-</span>rf</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Collecting kiwipiepy
+  Downloading kiwipiepy-0.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.5 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 43.3 MB/s eta 0:00:00
+ kiwipiepy)
+  Downloading dataclasses-0.6-py3-none-any.whl (14 kB)
+Collecting kiwipiepy-model~=0.15 (from kiwipiepy)
+  Downloading kiwipiepy_model-0.15.0.tar.gz (30.5 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 30.5/30.5 MB 34.0 MB/s eta 0:00:00
+etadata (setup.py) ... ent already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (from kiwipiepy) (1.22.4)
+Requirement already satisfied: tqdm in /usr/local/lib/python3.10/dist-packages (from kiwipiepy) (4.65.0)
+Building wheels for collected packages: kiwipiepy-model
+  Building wheel for kiwipiepy-model (setup.py) ... odel: filename=kiwipiepy_model-0.15.0-py3-none-any.whl size=30602629 sha256=647a1ed6919fdbc1b82fae08f61ff433f822ca6d7e415bace011d019f41a8b16
+  Stored in directory: /root/.cache/pip/wheels/f3/55/41/ca474338ece1bc4314b01445f64ff002d71e19df45575a16e2
+Successfully built kiwipiepy-model
+Installing collected packages: kiwipiepy-model, dataclasses, kiwipiepy
+Successfully installed dataclasses-0.6 kiwipiepy-0.15.1 kiwipiepy-model-0.15.0
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;pip_warning&quot;</span><span class="fu">:{</span><span class="dt">&quot;packages&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="st">&quot;dataclasses&quot;</span><span class="ot">]</span><span class="fu">}}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: pandas in /usr/local/lib/python3.10/dist-packages (1.5.3)
+Requirement already satisfied: python-dateutil&gt;=2.8.1 in /usr/local/lib/python3.10/dist-packages (from pandas) (2.8.2)
+Requirement already satisfied: pytz&gt;=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas) (2022.7.1)
+Requirement already satisfied: numpy&gt;=1.21.0 in /usr/local/lib/python3.10/dist-packages (from pandas) (1.22.4)
+Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil&gt;=2.8.1-&gt;pandas) (1.16.0)
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: seaborn in /usr/local/lib/python3.10/dist-packages (0.12.2)
+Requirement already satisfied: numpy!=1.24.0,&gt;=1.17 in /usr/local/lib/python3.10/dist-packages (from seaborn) (1.22.4)
+Requirement already satisfied: pandas&gt;=0.25 in /usr/local/lib/python3.10/dist-packages (from seaborn) (1.5.3)
+Requirement already satisfied: matplotlib!=3.6.1,&gt;=3.1 in /usr/local/lib/python3.10/dist-packages (from seaborn) (3.7.1)
+Requirement already satisfied: contourpy&gt;=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib!=3.6.1,&gt;=3.1-&gt;seaborn) (1.0.7)
+Requirement already satisfied: cycler&gt;=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib!=3.6.1,&gt;=3.1-&gt;seaborn) (0.11.0)
+Requirement already satisfied: fonttools&gt;=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib!=3.6.1,&gt;=3.1-&gt;seaborn) (4.39.3)
+Requirement already satisfied: kiwisolver&gt;=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib!=3.6.1,&gt;=3.1-&gt;seaborn) (1.4.4)
+Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib!=3.6.1,&gt;=3.1-&gt;seaborn) (23.1)
+Requirement already satisfied: pillow&gt;=6.2.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib!=3.6.1,&gt;=3.1-&gt;seaborn) (8.4.0)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib!=3.6.1,&gt;=3.1-&gt;seaborn) (3.0.9)
+Requirement already satisfied: python-dateutil&gt;=2.7 in /usr/local/lib/python3.10/dist-packages (from matplotlib!=3.6.1,&gt;=3.1-&gt;seaborn) (2.8.2)
+Requirement already satisfied: pytz&gt;=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas&gt;=0.25-&gt;seaborn) (2022.7.1)
+Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil&gt;=2.7-&gt;matplotlib!=3.6.1,&gt;=3.1-&gt;seaborn) (1.16.0)
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: matplotlib in /usr/local/lib/python3.10/dist-packages (3.7.1)
+Requirement already satisfied: contourpy&gt;=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (1.0.7)
+Requirement already satisfied: cycler&gt;=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (0.11.0)
+Requirement already satisfied: fonttools&gt;=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (4.39.3)
+Requirement already satisfied: kiwisolver&gt;=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (1.4.4)
+Requirement already satisfied: numpy&gt;=1.20 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (1.22.4)
+Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (23.1)
+Requirement already satisfied: pillow&gt;=6.2.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (8.4.0)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (3.0.9)
+Requirement already satisfied: python-dateutil&gt;=2.7 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (2.8.2)
+Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil&gt;=2.7-&gt;matplotlib) (1.16.0)
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: wordcloud in /usr/local/lib/python3.10/dist-packages (1.8.2.2)
+Requirement already satisfied: numpy&gt;=1.6.1 in /usr/local/lib/python3.10/dist-packages (from wordcloud) (1.22.4)
+Requirement already satisfied: pillow in /usr/local/lib/python3.10/dist-packages (from wordcloud) (8.4.0)
+Requirement already satisfied: matplotlib in /usr/local/lib/python3.10/dist-packages (from wordcloud) (3.7.1)
+Requirement already satisfied: contourpy&gt;=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib-&gt;wordcloud) (1.0.7)
+Requirement already satisfied: cycler&gt;=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib-&gt;wordcloud) (0.11.0)
+Requirement already satisfied: fonttools&gt;=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib-&gt;wordcloud) (4.39.3)
+Requirement already satisfied: kiwisolver&gt;=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib-&gt;wordcloud) (1.4.4)
+Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib-&gt;wordcloud) (23.1)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib-&gt;wordcloud) (3.0.9)
+Requirement already satisfied: python-dateutil&gt;=2.7 in /usr/local/lib/python3.10/dist-packages (from matplotlib-&gt;wordcloud) (2.8.2)
+Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil&gt;=2.7-&gt;matplotlib-&gt;wordcloud) (1.16.0)
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: Pillow in /usr/local/lib/python3.10/dist-packages (8.4.0)
+Collecting Pillow
+  Downloading Pillow-9.5.0-cp310-cp310-manylinux_2_28_x86_64.whl (3.4 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 50.4 MB/s eta 0:00:00
+pting uninstall: Pillow
+    Found existing installation: Pillow 8.4.0
+    Uninstalling Pillow-8.4.0:
+      Successfully uninstalled Pillow-8.4.0
+Successfully installed Pillow-9.5.0
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;pip_warning&quot;</span><span class="fu">:{</span><span class="dt">&quot;packages&quot;</span><span class="fu">:</span><span class="ot">[</span><span class="st">&quot;PIL&quot;</span><span class="ot">]</span><span class="fu">}}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (1.22.4)
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  fonts-nanum
+0 upgraded, 1 newly installed, 0 to remove and 24 not upgraded.
+Need to get 9,599 kB of archives.
+After this operation, 29.6 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal/universe amd64 fonts-nanum all 20180306-3 [9,599 kB]
+Fetched 9,599 kB in 1s (9,160 kB/s)
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76, &lt;&gt; line 1.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Selecting previously unselected package fonts-nanum.
+(Reading database ... 122531 files and directories currently installed.)
+Preparing to unpack .../fonts-nanum_20180306-3_all.deb ...
+Unpacking fonts-nanum (20180306-3) ...
+Setting up fonts-nanum (20180306-3) ...
+Processing triggers for fontconfig (2.13.1-2ubuntu3) ...
+/usr/share/fonts: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/truetype: caching, new cache contents: 0 fonts, 3 dirs
+/usr/share/fonts/truetype/humor-sans: caching, new cache contents: 1 fonts, 0 dirs
+/usr/share/fonts/truetype/liberation: caching, new cache contents: 16 fonts, 0 dirs
+/usr/share/fonts/truetype/nanum: caching, new cache contents: 10 fonts, 0 dirs
+/usr/local/share/fonts: caching, new cache contents: 0 fonts, 0 dirs
+/root/.local/share/fonts: skipping, no such directory
+/root/.fonts: skipping, no such directory
+/usr/share/fonts/truetype: skipping, looped directory detected
+/usr/share/fonts/truetype/humor-sans: skipping, looped directory detected
+/usr/share/fonts/truetype/liberation: skipping, looped directory detected
+/usr/share/fonts/truetype/nanum: skipping, looped directory detected
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+</code></pre>
+</div>
+</div>
+<div id="phUIkQCVIGqP" class="cell markdown" id="phUIkQCVIGqP">
+<h3 id="런타임-다시-시작">런타임 다시 시작</h3>
+</div>
+<div id="83d18dfd" class="cell markdown" id="83d18dfd">
+<h1 id="2데이터-불러오고-정제하기">2.데이터 불러오고 정제하기</h1>
+</div>
+<div id="pd3kFQIoEHCX" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:21202,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684407977560,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="pd3kFQIoEHCX" data-outputId="74097699-8956-46c8-a7ef-5917716e7290">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">&#39;/content/drive&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mounted at /content/drive
+</code></pre>
+</div>
+</div>
+<div id="7211070c" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:1232,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408052509,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="7211070c" data-outputId="b6912c82-5bc9-49cf-c81e-d3297fc9cad5">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>thieves <span class="op">=</span> <span class="bu">open</span>(<span class="st">&#39;drive/My Drive/Copy of 5월 11일 테스트용 리뷰.txt&#39;</span>, encoding<span class="op">=</span><span class="st">&#39;UTF-8&#39;</span>).read()</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(thieves[:<span class="dv">1000</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0	재밌어요! 드라마로도 나오면 좋겠어요.
+1	가해자에게 서사를 만들어주는 진짜 마음이 불편해진 이야기..
+2	술술 읽혀요.. 옥수수…..수염차…마시고…싶다…
+3	마음이 따뜻해지는 내용들. 인생을 배웠어요.
+4	갈등은 깊고 해결은 간단해서 무슨 어린이용 동화책 보는 기분 불호
+5	따뜻한 소설. 재밌게 봤어요
+6	연극으로 나오면 보러갈래요
+7	1편은 재밌었어요. 2편이 아쉬울뿐ㅠ
+8	소소하니 잔잔한 감동을 주는 친근한 소설 입니다.
+9	지루함없이 사람사는얘기 공감하는 기회가 된듯....
+10	비현실적인 다정함에 마음이 따뜻해집니다
+11	친숙한 공간들에서 인간관계를 통해 서로가 마음을 나누게 되는  과정이 따뜻하네요..
+12	술술..읽히네요..가벼운듯..무거..운..이야기같아요..해석하기에따라..다를것..같..네요
+13	재밌어요,
+14	가해자의 마음을 이해해주고 가해자를 다독여주고 가해자에게 기회를 주는 불편한 책.
+15	&quot;사랑의 힘은 
+부재도 극복되는 힘이 있어
+그 사랑의 바통을 
+타인이 받아서 채워주죠
+
+
+감&quot;
+16	&quot;가볍게 읽으려 선택했지만
+가볍지않은 마무리의 책
+
+각자의 사정이 다 있다..&quot;
+17	진짜 인상깊은 책...  마음이 따뜻해졌어요ㅜㅜ
+18	나도... 독고씨... 필요해..요..
+19	한번에 주욱 읽게되네요~
+20	불편한 편의점이지만, 꼭 한번 가보고 싶다는 묘한 끌림이 있네요
+21	읽는 내내 따뜻해지는 스토리 입니다. 출퇴근길에 재미나게 금방 읽었습니다.
+22	초반 good 반전은 너무 비현실적ㅋ
+23	유튜브로 처음부분을 접하고 궁금함에 오랜만에 책을 읽었네요. 술술 잘 읽히는 착한 책!
+24	사람들은 각자만의 사정이있다.
+25	예전부터 베스트셀러인 거 보고 읽어봤는데 역시 베셀은 베ㅔ셀인 이유가 잇는 법!!
+26	흥미진진하고 재미있게봤습니다 진정한 주인공은 선량한 편의점 사장님이 아닐까 싶기도 해요
+27	세상을 살아가는 모든 이를 응원해주고 싶어요.
+28	들으며 인생상담 한 듯....잔잔하다 빵 터지는 반전과 감동..끝까지 따뜻하다
+29	이야기
+</code></pre>
+</div>
+</div>
+<div id="fad5d5ae" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:412,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408059668,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="fad5d5ae" data-outputId="c8508964-1d12-493a-af79-0fe06cb13c4b">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>thieves <span class="op">=</span> re.sub(<span class="st">&#39;[^가-힣]&#39;</span>, <span class="st">&#39; &#39;</span>, thieves)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>thieves <span class="op">=</span> re.sub(<span class="st">&#39;[\s]+&#39;</span>, <span class="st">&#39; &#39;</span>, thieves)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>thieves <span class="op">=</span> thieves.strip()</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(thieves[:<span class="dv">1000</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>재밌어요 드라마로도 나오면 좋겠어요 가해자에게 서사를 만들어주는 진짜 마음이 불편해진 이야기 술술 읽혀요 옥수수 수염차 마시고 싶다 마음이 따뜻해지는 내용들 인생을 배웠어요 갈등은 깊고 해결은 간단해서 무슨 어린이용 동화책 보는 기분 불호 따뜻한 소설 재밌게 봤어요 연극으로 나오면 보러갈래요 편은 재밌었어요 편이 아쉬울뿐 소소하니 잔잔한 감동을 주는 친근한 소설 입니다 지루함없이 사람사는얘기 공감하는 기회가 된듯 비현실적인 다정함에 마음이 따뜻해집니다 친숙한 공간들에서 인간관계를 통해 서로가 마음을 나누게 되는 과정이 따뜻하네요 술술 읽히네요 가벼운듯 무거 운 이야기같아요 해석하기에따라 다를것 같 네요 재밌어요 가해자의 마음을 이해해주고 가해자를 다독여주고 가해자에게 기회를 주는 불편한 책 사랑의 힘은 부재도 극복되는 힘이 있어 그 사랑의 바통을 타인이 받아서 채워주죠 감 가볍게 읽으려 선택했지만 가볍지않은 마무리의 책 각자의 사정이 다 있다 진짜 인상깊은 책 마음이 따뜻해졌어요 나도 독고씨 필요해 요 한번에 주욱 읽게되네요 불편한 편의점이지만 꼭 한번 가보고 싶다는 묘한 끌림이 있네요 읽는 내내 따뜻해지는 스토리 입니다 출퇴근길에 재미나게 금방 읽었습니다 초반 반전은 너무 비현실적 유튜브로 처음부분을 접하고 궁금함에 오랜만에 책을 읽었네요 술술 잘 읽히는 착한 책 사람들은 각자만의 사정이있다 예전부터 베스트셀러인 거 보고 읽어봤는데 역시 베셀은 베 셀인 이유가 잇는 법 흥미진진하고 재미있게봤습니다 진정한 주인공은 선량한 편의점 사장님이 아닐까 싶기도 해요 세상을 살아가는 모든 이를 응원해주고 싶어요 들으며 인생상담 한 듯 잔잔하다 빵 터지는 반전과 감동 끝까지 따뜻하다 이야기가 진행될수록 독고라는 캐릭터의 매력에 스며들면서 몰입해서 읽게 되는 재밌는 책 독고는 고독하지 않았다 반전있는 서사와 따수운 위로의 책 한국판 나미야 잡화점의 비밀이라고 생각이 듭니다 따뜻한 온정이 느껴지는 책이었습니다 나도 누군가에게 그런 어른이 되고 싶다는 생각이 든 소설 가벼운 마
+</code></pre>
+</div>
+</div>
+<div id="b29f4ee8" class="cell markdown" id="b29f4ee8">
+<h1 id="3형태소-분석하기">3.형태소 분석하기</h1>
+</div>
+<div id="74f1f6c2" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:14992,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408078818,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="74f1f6c2" data-outputId="e2e353e0-9956-40c5-fc6c-b90261cddf11">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kiwipiepy <span class="im">import</span> Kiwi</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>kiwi <span class="op">=</span> Kiwi()  <span class="co">#키위는 키위라는 클래스 키라는 패키지 안에 존재하는 키 클래스를 인스턴스화 해줍니다.</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>posTagout <span class="op">=</span> kiwi.tokenize(thieves)  <span class="co">#형태 분석 결과를 저희가 생각을 해보면은 셋 형태로 되어 있고 해당 형태에서 분석된 결과를 하나하나 읽으면</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>sentencePOS <span class="op">=</span> []</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> eachOut <span class="kw">in</span> posTagout:</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> eachOut[<span class="dv">0</span>]<span class="op">+</span><span class="st">&quot;/&quot;</span><span class="op">+</span>eachOut[<span class="dv">1</span>] <span class="co">#첫 번쨰 인덕스에 존재하는거는 단어인데 단어와 소사를 합친다. 그 가운데에 경계로는 시가 지금 사용이 되는거에요</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>    sentencePOS.append(result) <span class="co">#result라는 이름으로 저장을 하는 겁니다.</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(sentencePOS[:<span class="dv">10</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[&#39;재밌/VA&#39;, &#39;어요/EF&#39;, &#39;드라마/NNG&#39;, &#39;로/JKB&#39;, &#39;도/JX&#39;, &#39;나오/VV&#39;, &#39;면/EC&#39;, &#39;좋/VA&#39;, &#39;겠/EP&#39;, &#39;어요/EF&#39;]
+</code></pre>
+</div>
+</div>
+<div id="e61a0f58" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:1031,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408086393,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="e61a0f58" data-outputId="5164b4b7-fca7-4115-fd3b-b73494a8a677">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd <span class="co">#해당 결과를 이렇게 리스트 형태로 저장을 하게 되면은 우리가 커운팅을 할수 있어요. pandas를 통해서 pandas를 불러드립니다.pandas를 통하게 되면 단어 계산 하는게 편해져요.pandas를 통해서 이 워드스라는 콜럼을 만들건데 우리가 데이터를 변수를 pandas를 통해서 만들고 있는거에요.</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>df_words <span class="op">=</span> pd.DataFrame({<span class="st">&#39;word&#39;</span>:sentencePOS}) <span class="co">#dataframe안에 워드스 라는 칼럼을 만들거고 그 안에 들어가는 정보는 센테스 pos리스트 정보입니다.그러면 단어와 결과 물들이 리스트의 한 열에 다 들어가게 되요,</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_words[:<span class="dv">10</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>      word
+0    재밌/VA
+1    어요/EF
+2  드라마/NNG
+3    로/JKB
+4     도/JX
+5    나오/VV
+6     면/EC
+7     좋/VA
+8     겠/EP
+9    어요/EF
+</code></pre>
+</div>
+</div>
+<div id="77825d4b" class="cell markdown" id="77825d4b">
+<h1 id="4단어-빈도표-만들기">4.단어 빈도표 만들기</h1>
+</div>
+<div id="7c2c5c02" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:7,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408089499,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="7c2c5c02" data-outputId="a1fca8ee-1905-446e-c912-aaed43230126">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># count라는 열을 새로운 열을 생성을 할거고,카운트 열에는 단어의 길이가 계산이 될거고 단어의 길이를 계산하고 10개의 단어를 뽑아줍니다.이 단어의 길이를 계산 합니다.</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>df_words[<span class="st">&#39;count&#39;</span>] <span class="op">=</span> df_words[<span class="st">&#39;word&#39;</span>].<span class="bu">str</span>.<span class="bu">len</span>()</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_words[:<span class="dv">10</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>      word  count
+0    재밌/VA      5
+1    어요/EF      5
+2  드라마/NNG      7
+3    로/JKB      5
+4     도/JX      4
+5    나오/VV      5
+6     면/EC      4
+7     좋/VA      4
+8     겠/EP      4
+9    어요/EF      5
+</code></pre>
+</div>
+</div>
+<div id="07ed0620" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:572,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408093259,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="07ed0620" data-outputId="2cdf66bd-5295-4f53-d0be-90ae50002772">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 카운트가 4이상인 단어들만 사용을 하겠는데,이 pandAs데이터 프레임 안에 커리라는 함수가 존재를 하고 커리 안에서 조건을 주는겁니다.</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>df_words <span class="op">=</span> df_words.query(<span class="st">&#39;count &gt;= 2&#39;</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_words.sort_values(<span class="st">&#39;count&#39;</span>)[:<span class="dv">10</span>]) <span class="co">#정렬을 하는데 카우트를 기준으로 sort를 하는겁니다.</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>       word  count
+16413  다/EF      4
+4698   요/JX      4
+4697   네/EF      4
+4696   남/VV      4
+11724  읽/VV      4
+11725  고/EC      4
+4693   라/EF      4
+11726  싶/VX      4
+11727  어/EC      4
+4700   있/VV      4
+</code></pre>
+</div>
+</div>
+<div id="49da3b6b" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:4,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408096432,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="49da3b6b" data-outputId="c58a3774-54e2-495f-cd32-4c286514ad01">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>df_words <span class="op">=</span> df_words.groupby(<span class="st">&#39;word&#39;</span>, as_index <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>df_words <span class="op">=</span> df_words.agg(n<span class="op">=</span>(<span class="st">&#39;word&#39;</span>, <span class="st">&#39;count&#39;</span>))</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>df_words <span class="op">=</span> df_words.sort_values(<span class="st">&#39;n&#39;</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_words[:<span class="dv">10</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>       word    n
+353   는/ETM  510
+1     ᆫ/ETM  480
+1716  하/XSA  479
+1107   었/EP  413
+1064   어/EC  406
+1281  이/VCP  358
+1276  이/JKS  324
+1257  을/JKO  314
+115    게/EC  311
+139    고/EC  297
+</code></pre>
+</div>
+</div>
+<div id="818816ab" class="cell markdown" id="818816ab">
+<h1 id="5상위-30개의-단어-추출해서-막대-그래프로-표현하기">5.상위 30개의
+단어 추출해서 막대 그래프로 표현하기</h1>
+</div>
+<div id="2db7c114" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:422,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408099202,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="2db7c114" data-outputId="0affe9cb-e57d-4e31-e804-71f59f6ee862">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#공사를 따로 분석을 하지 않고 모든 공사에 대해서 일단 분석을 먼저 하고있어요.그리고 제일 위에 상위권 30안에 들어있는 텍스트를 단어들을 추출했을때 이렇게 단어들이 츠출이 되었어요.</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>top30 <span class="op">=</span> df_words.head(<span class="dv">30</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(top30)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>         word    n
+353     는/ETM  510
+1       ᆫ/ETM  480
+1716    하/XSA  479
+1107     었/EP  413
+1064     어/EC  406
+1281    이/VCP  358
+1276    이/JKS  324
+1257    을/JKO  314
+115      게/EC  311
+139      고/EC  297
+1343     읽/VV  291
+1591    책/NNG  282
+1267    의/JKG  264
+1109    에/JKB  213
+1252    은/ETM  195
+1717    하/XSV  194
+818    사람/NNG  147
+1301  이야기/NNG  145
+1085    어요/EF  143
+511     들/XSN  133
+524     따뜻/XR  127
+29      가/JKS  125
+580     를/JKO  124
+1518     지/VX  120
+588    마음/NNG  119
+370      다/EC  117
+448      도/JX  116
+326     네요/EF  115
+13      ᆯ/ETM  114
+1351     있/VA  113
+</code></pre>
+</div>
+</div>
+<div id="bb8275e5" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+data-executionInfo="{&quot;elapsed&quot;:2624,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408105906,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="bb8275e5" data-outputId="6e07a07c-fc2c-42bc-c141-eb02dd7df7c3">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>plt.rcParams.update({<span class="st">&#39;font.family&#39;</span>:<span class="st">&#39;NanumBarunGothic&#39;</span>})</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>plt.rcParams.update({<span class="st">&#39;figure.dpi&#39;</span>:<span class="st">&#39;120&#39;</span>})</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>plt.rcParams.update({<span class="st">&#39;figure.figsize&#39;</span>:[<span class="fl">6.5</span>,<span class="dv">6</span>]})</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>sns.barplot(data <span class="op">=</span> top30, y <span class="op">=</span> <span class="st">&#39;word&#39;</span>, x <span class="op">=</span> <span class="st">&#39;n&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>&lt;Axes: xlabel=&#39;n&#39;, ylabel=&#39;word&#39;&gt;</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 45716 (\N{HANGUL SYLLABLE NEUN}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 4523 (\N{HANGUL JONGSEONG NIEUN}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 54616 (\N{HANGUL SYLLABLE HA}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 50632 (\N{HANGUL SYLLABLE EOSS}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 50612 (\N{HANGUL SYLLABLE EO}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51060 (\N{HANGUL SYLLABLE I}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51012 (\N{HANGUL SYLLABLE EUL}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44172 (\N{HANGUL SYLLABLE GE}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44256 (\N{HANGUL SYLLABLE GO}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51069 (\N{HANGUL SYLLABLE ILG}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 52293 (\N{HANGUL SYLLABLE CAEG}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51032 (\N{HANGUL SYLLABLE YI}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 50640 (\N{HANGUL SYLLABLE E}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51008 (\N{HANGUL SYLLABLE EUN}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49324 (\N{HANGUL SYLLABLE SA}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46988 (\N{HANGUL SYLLABLE RAM}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 50556 (\N{HANGUL SYLLABLE YA}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44592 (\N{HANGUL SYLLABLE GI}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 50836 (\N{HANGUL SYLLABLE YO}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46308 (\N{HANGUL SYLLABLE DEUL}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46384 (\N{HANGUL SYLLABLE DDA}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46907 (\N{HANGUL SYLLABLE DDEUS}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44032 (\N{HANGUL SYLLABLE GA}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 47484 (\N{HANGUL SYLLABLE REUL}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51648 (\N{HANGUL SYLLABLE JI}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 47560 (\N{HANGUL SYLLABLE MA}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51020 (\N{HANGUL SYLLABLE EUM}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 45796 (\N{HANGUL SYLLABLE DA}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46020 (\N{HANGUL SYLLABLE DO}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 45348 (\N{HANGUL SYLLABLE NE}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 4527 (\N{HANGUL JONGSEONG RIEUL}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51080 (\N{HANGUL SYLLABLE ISS}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 45716 (\N{HANGUL SYLLABLE NEUN}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 4523 (\N{HANGUL JONGSEONG NIEUN}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 54616 (\N{HANGUL SYLLABLE HA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 50632 (\N{HANGUL SYLLABLE EOSS}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 50612 (\N{HANGUL SYLLABLE EO}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51060 (\N{HANGUL SYLLABLE I}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51012 (\N{HANGUL SYLLABLE EUL}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44172 (\N{HANGUL SYLLABLE GE}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44256 (\N{HANGUL SYLLABLE GO}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51069 (\N{HANGUL SYLLABLE ILG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 52293 (\N{HANGUL SYLLABLE CAEG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51032 (\N{HANGUL SYLLABLE YI}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 50640 (\N{HANGUL SYLLABLE E}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51008 (\N{HANGUL SYLLABLE EUN}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49324 (\N{HANGUL SYLLABLE SA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46988 (\N{HANGUL SYLLABLE RAM}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 50556 (\N{HANGUL SYLLABLE YA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44592 (\N{HANGUL SYLLABLE GI}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 50836 (\N{HANGUL SYLLABLE YO}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46308 (\N{HANGUL SYLLABLE DEUL}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46384 (\N{HANGUL SYLLABLE DDA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46907 (\N{HANGUL SYLLABLE DDEUS}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44032 (\N{HANGUL SYLLABLE GA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 47484 (\N{HANGUL SYLLABLE REUL}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51648 (\N{HANGUL SYLLABLE JI}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 47560 (\N{HANGUL SYLLABLE MA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51020 (\N{HANGUL SYLLABLE EUM}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 45796 (\N{HANGUL SYLLABLE DA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46020 (\N{HANGUL SYLLABLE DO}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 45348 (\N{HANGUL SYLLABLE NE}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 4527 (\N{HANGUL JONGSEONG RIEUL}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51080 (\N{HANGUL SYLLABLE ISS}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_554ca64c85434ec3945cb3286bb044d9/effa250f6407498befb84989a34b2918e016e80b.png" /></p>
+</div>
+</div>
+<div id="aea2ad58" class="cell markdown" id="aea2ad58">
+<h1 id="6워드클라우드-생성하기">6.워드클라우드 생성하기</h1>
+</div>
+<div id="3d9eb37b" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:1021,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684408111378,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="3d9eb37b" data-outputId="c3463e8a-5957-4870-c44e-aa5113e4f31c">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dictionary의 형태로 변화를 준건데,워드클라우드 같은 경우에는 이 pandas에서 컬럼으로 지정해준 형태로는 읽어드릴수가 없습니다. 그래서 pandas에 있는 데이터 프레임 형태를 dictionary의 형태로 변환해줬어요.</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>df_words_dic <span class="op">=</span> df_words.set_index(<span class="st">&#39;word&#39;</span>).to_dict()[<span class="st">&#39;n&#39;</span>]</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>dictNum <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> key, value <span class="kw">in</span> df_words_dic.items(): <span class="co">#dictionary 안에 아이템들을 하나하나 프린트를 하고 브레이크를 걸어놓은 겁니다.</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(key, <span class="st">&quot;:&quot;</span>, value)</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>    dictNum <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> dictNum <span class="op">==</span> <span class="dv">15</span>:</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>      <span class="cf">break</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>는/ETM : 510
+ᆫ/ETM : 480
+하/XSA : 479
+었/EP : 413
+어/EC : 406
+이/VCP : 358
+이/JKS : 324
+을/JKO : 314
+게/EC : 311
+고/EC : 297
+읽/VV : 291
+책/NNG : 282
+의/JKG : 264
+에/JKB : 213
+은/ETM : 195
+</code></pre>
+</div>
+</div>
+<div id="4a1988ec" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:541}"
+data-executionInfo="{&quot;elapsed&quot;:584,&quot;status&quot;:&quot;error&quot;,&quot;timestamp&quot;:1684410274313,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="4a1988ec" data-outputId="1d5fd82a-79c6-46c0-b85a-1453ddb050dd">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> wordcloud <span class="im">import</span> WordCloud</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image </span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>font <span class="op">=</span> <span class="st">&#39;drive/My Drive/DoHyeon-Regular.ttf&#39;</span></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>word_cloud <span class="op">=</span> WordCloud(font_path <span class="op">=</span> font,</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>                       width <span class="op">=</span> <span class="dv">2000</span>, height <span class="op">=</span> <span class="dv">1000</span>,</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>                       background_color<span class="op">=</span><span class="st">&#39;white&#39;</span>)</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>word_cloud.generate_from_frequencies(df_words_dic)</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">15</span>))</span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a>plt.imshow(word_cloud)</span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">&quot;off&quot;</span>)</span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a>plt.tight_layout(pad<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output error" data-ename="ImportError"
+data-evalue="ignored">
+<pre><code>---------------------------------------------------------------------------
+ImportError                               Traceback (most recent call last)
+&lt;ipython-input-17-2524dd108e77&gt; in &lt;cell line: 1&gt;()
+----&gt; 1 from wordcloud import WordCloud
+      2 from PIL import Image
+      3 import numpy as np
+      4 import matplotlib.pyplot as plt
+      5 #
+
+/usr/local/lib/python3.10/dist-packages/wordcloud/__init__.py in &lt;module&gt;
+----&gt; 1 from .wordcloud import (WordCloud, STOPWORDS, random_color_func,
+      2                         get_single_color_func)
+      3 from .color_from_image import ImageColorGenerator
+      4 
+      5 __all__ = [&#39;WordCloud&#39;, &#39;STOPWORDS&#39;, &#39;random_color_func&#39;,
+
+/usr/local/lib/python3.10/dist-packages/wordcloud/wordcloud.py in &lt;module&gt;
+     26 from PIL import ImageDraw
+     27 from PIL import ImageFilter
+---&gt; 28 from PIL import ImageFont
+     29 
+     30 from .query_integral_image import query_integral_image
+
+/usr/local/lib/python3.10/dist-packages/PIL/ImageFont.py in &lt;module&gt;
+     36 from . import Image
+     37 from ._deprecate import deprecate
+---&gt; 38 from ._util import is_directory, is_path
+     39 
+     40 
+
+ImportError: cannot import name &#39;is_directory&#39; from &#39;PIL._util&#39; (/usr/local/lib/python3.10/dist-packages/PIL/_util.py)
+
+---------------------------------------------------------------------------
+NOTE: If your import is failing due to a missing package, you can
+manually install dependencies using either !pip or !apt.
+
+To view examples of installing some common dependencies, click the
+&quot;Open Examples&quot; button below.
+---------------------------------------------------------------------------
+
+</code></pre>
+</div>
+</div>
+<div id="g1Z62vUGJDHZ" class="cell markdown" id="g1Z62vUGJDHZ">
+<h1 id="7명사--형용사--동사-content-words만-사용하기">7.명사 &amp;
+형용사 &amp; 동사 (content words)만 사용하기</h1>
+</div>
+<div id="69e94a82" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:12779,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410296567,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="69e94a82" data-outputId="0845c6d4-1aeb-4d44-da4d-944f2869fc0f">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kiwipiepy <span class="im">import</span> Kiwi</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>kiwi <span class="op">=</span> Kiwi()</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>posTagout <span class="op">=</span> kiwi.tokenize(thieves)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>sentencePOS <span class="op">=</span> []</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> eachOut <span class="kw">in</span> posTagout:</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">&quot;VV&quot;</span> <span class="kw">in</span> eachOut[<span class="dv">1</span>] <span class="kw">or</span> <span class="st">&quot;VA&quot;</span> <span class="kw">in</span> eachOut[<span class="dv">1</span>] <span class="kw">or</span> <span class="st">&quot;NN&quot;</span> <span class="kw">in</span> eachOut[<span class="dv">1</span>]:</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>      result <span class="op">=</span> eachOut[<span class="dv">0</span>]<span class="op">+</span><span class="st">&quot;/&quot;</span><span class="op">+</span>eachOut[<span class="dv">1</span>]</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>      sentencePOS.append(result)</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(sentencePOS[:<span class="dv">10</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[&#39;재밌/VA&#39;, &#39;드라마/NNG&#39;, &#39;나오/VV&#39;, &#39;좋/VA&#39;, &#39;가해자/NNG&#39;, &#39;서사/NNG&#39;, &#39;만들/VV&#39;, &#39;마음/NNG&#39;, &#39;불편/NNG&#39;, &#39;이야기/NNG&#39;]
+</code></pre>
+</div>
+</div>
+<div id="Bd4YPiPOJ18T" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:518,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410311508,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="Bd4YPiPOJ18T" data-outputId="176ee8c0-892b-4f66-83db-f594ea3f766a">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>df_words <span class="op">=</span> pd.DataFrame({<span class="st">&#39;word&#39;</span>:sentencePOS})</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_words[:<span class="dv">10</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>      word
+0    재밌/VA
+1  드라마/NNG
+2    나오/VV
+3     좋/VA
+4  가해자/NNG
+5   서사/NNG
+6    만들/VV
+7   마음/NNG
+8   불편/NNG
+9  이야기/NNG
+</code></pre>
+</div>
+</div>
+<div id="x8qVZf7KJ53S" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:571,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410317341,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="x8qVZf7KJ53S" data-outputId="25ba47ae-4624-45fb-a34b-822cba497de2">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>df_words[<span class="st">&#39;count&#39;</span>] <span class="op">=</span> df_words[<span class="st">&#39;word&#39;</span>].<span class="bu">str</span>.<span class="bu">len</span>()</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>df_words <span class="op">=</span> df_words.query(<span class="st">&#39;count &gt;= 2&#39;</span>)</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>df_words <span class="op">=</span> df_words.groupby(<span class="st">&#39;word&#39;</span>, as_index <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>df_words <span class="op">=</span> df_words.agg(n<span class="op">=</span>(<span class="st">&#39;word&#39;</span>, <span class="st">&#39;count&#39;</span>))</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>df_words <span class="op">=</span> df_words.sort_values(<span class="st">&#39;n&#39;</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_words[:<span class="dv">10</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>         word    n
+887      읽/VV  291
+1065    책/NNG  282
+537    사람/NNG  147
+850   이야기/NNG  145
+359    마음/NNG  119
+895      있/VA  113
+305      되/VV  102
+937     재밌/VA   97
+1145  편의점/NNG   95
+60      것/NNB   94
+</code></pre>
+</div>
+</div>
+<div id="9hMCxynLKAh4" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+data-executionInfo="{&quot;elapsed&quot;:1565,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410324437,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="9hMCxynLKAh4" data-outputId="4678f381-88fe-47d7-ab12-4ea57a6fa624">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>top30 <span class="op">=</span> df_words.head(<span class="dv">30</span>)</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(top30)</span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>plt.rcParams.update({<span class="st">&#39;font.family&#39;</span>:<span class="st">&#39;NanumBarunGothic&#39;</span>})</span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>plt.rcParams.update({<span class="st">&#39;figure.dpi&#39;</span>:<span class="st">&#39;120&#39;</span>})</span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>plt.rcParams.update({<span class="st">&#39;figure.figsize&#39;</span>:[<span class="fl">6.5</span>,<span class="dv">6</span>]})</span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a>sns.barplot(data <span class="op">=</span> top30, y <span class="op">=</span> <span class="st">&#39;word&#39;</span>, x <span class="op">=</span> <span class="st">&#39;n&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>         word    n
+887      읽/VV  291
+1065    책/NNG  282
+537    사람/NNG  147
+850   이야기/NNG  145
+359    마음/NNG  119
+895      있/VA  113
+305      되/VV  102
+937     재밌/VA   97
+1145  편의점/NNG   95
+60      것/NNB   94
+631     수/NNB   91
+514    불편/NNG   91
+981      좋/VA   83
+488      보/VV   82
+889     읽히/VV   81
+557     삶/NNG   69
+39       같/VA   67
+608    소설/NNG   56
+896      있/VV   54
+1170     하/VV   53
+27     감동/NNG   51
+101    관계/NNG   50
+573    생각/NNG   47
+278    독고/NNP   47
+329    따뜻하/VA   44
+46      거/NNB   41
+1        가/VV   39
+5     가볍/VA-I   39
+552      살/VV   39
+222     느끼/VV   38
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="21">
+<pre><code>&lt;Axes: xlabel=&#39;n&#39;, ylabel=&#39;word&#39;&gt;</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51069 (\N{HANGUL SYLLABLE ILG}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 52293 (\N{HANGUL SYLLABLE CAEG}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49324 (\N{HANGUL SYLLABLE SA}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46988 (\N{HANGUL SYLLABLE RAM}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51060 (\N{HANGUL SYLLABLE I}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 50556 (\N{HANGUL SYLLABLE YA}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44592 (\N{HANGUL SYLLABLE GI}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 47560 (\N{HANGUL SYLLABLE MA}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51020 (\N{HANGUL SYLLABLE EUM}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51080 (\N{HANGUL SYLLABLE ISS}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46104 (\N{HANGUL SYLLABLE DOE}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51116 (\N{HANGUL SYLLABLE JAE}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 48140 (\N{HANGUL SYLLABLE MISS}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 54200 (\N{HANGUL SYLLABLE PYEON}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51032 (\N{HANGUL SYLLABLE YI}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51216 (\N{HANGUL SYLLABLE JEOM}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44163 (\N{HANGUL SYLLABLE GEOS}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49688 (\N{HANGUL SYLLABLE SU}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 48520 (\N{HANGUL SYLLABLE BUL}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51339 (\N{HANGUL SYLLABLE JOH}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 48372 (\N{HANGUL SYLLABLE BO}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 55176 (\N{HANGUL SYLLABLE HI}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49334 (\N{HANGUL SYLLABLE SALM}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44057 (\N{HANGUL SYLLABLE GAT}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49548 (\N{HANGUL SYLLABLE SO}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49444 (\N{HANGUL SYLLABLE SEOL}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 54616 (\N{HANGUL SYLLABLE HA}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44048 (\N{HANGUL SYLLABLE GAM}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46041 (\N{HANGUL SYLLABLE DONG}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44288 (\N{HANGUL SYLLABLE GWAN}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44228 (\N{HANGUL SYLLABLE GYE}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49373 (\N{HANGUL SYLLABLE SAENG}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44033 (\N{HANGUL SYLLABLE GAG}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46021 (\N{HANGUL SYLLABLE DOG}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44256 (\N{HANGUL SYLLABLE GO}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46384 (\N{HANGUL SYLLABLE DDA}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46907 (\N{HANGUL SYLLABLE DDEUS}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44144 (\N{HANGUL SYLLABLE GEO}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44032 (\N{HANGUL SYLLABLE GA}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 48333 (\N{HANGUL SYLLABLE BYEOB}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49332 (\N{HANGUL SYLLABLE SAL}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 45712 (\N{HANGUL SYLLABLE NEU}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 45180 (\N{HANGUL SYLLABLE GGI}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51069 (\N{HANGUL SYLLABLE ILG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 52293 (\N{HANGUL SYLLABLE CAEG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49324 (\N{HANGUL SYLLABLE SA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46988 (\N{HANGUL SYLLABLE RAM}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51060 (\N{HANGUL SYLLABLE I}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 50556 (\N{HANGUL SYLLABLE YA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44592 (\N{HANGUL SYLLABLE GI}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 47560 (\N{HANGUL SYLLABLE MA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51020 (\N{HANGUL SYLLABLE EUM}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51080 (\N{HANGUL SYLLABLE ISS}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46104 (\N{HANGUL SYLLABLE DOE}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51116 (\N{HANGUL SYLLABLE JAE}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 48140 (\N{HANGUL SYLLABLE MISS}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 54200 (\N{HANGUL SYLLABLE PYEON}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51032 (\N{HANGUL SYLLABLE YI}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51216 (\N{HANGUL SYLLABLE JEOM}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44163 (\N{HANGUL SYLLABLE GEOS}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49688 (\N{HANGUL SYLLABLE SU}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 48520 (\N{HANGUL SYLLABLE BUL}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51339 (\N{HANGUL SYLLABLE JOH}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 48372 (\N{HANGUL SYLLABLE BO}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 55176 (\N{HANGUL SYLLABLE HI}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49334 (\N{HANGUL SYLLABLE SALM}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44057 (\N{HANGUL SYLLABLE GAT}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49548 (\N{HANGUL SYLLABLE SO}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49444 (\N{HANGUL SYLLABLE SEOL}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 54616 (\N{HANGUL SYLLABLE HA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44048 (\N{HANGUL SYLLABLE GAM}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46041 (\N{HANGUL SYLLABLE DONG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44288 (\N{HANGUL SYLLABLE GWAN}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44228 (\N{HANGUL SYLLABLE GYE}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49373 (\N{HANGUL SYLLABLE SAENG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44033 (\N{HANGUL SYLLABLE GAG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46021 (\N{HANGUL SYLLABLE DOG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44256 (\N{HANGUL SYLLABLE GO}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46384 (\N{HANGUL SYLLABLE DDA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46907 (\N{HANGUL SYLLABLE DDEUS}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44144 (\N{HANGUL SYLLABLE GEO}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44032 (\N{HANGUL SYLLABLE GA}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 48333 (\N{HANGUL SYLLABLE BYEOB}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49332 (\N{HANGUL SYLLABLE SAL}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 45712 (\N{HANGUL SYLLABLE NEU}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 45180 (\N{HANGUL SYLLABLE GGI}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_554ca64c85434ec3945cb3286bb044d9/d4ddfba264b835967892644f0ddde7024a2be15a.png" /></p>
+</div>
+</div>
+<div id="JjZbu_i7KIwZ" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:821,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410330148,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="JjZbu_i7KIwZ" data-outputId="eab95463-e748-45bc-88b0-50fdadd499dc">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>df_words_dic <span class="op">=</span> df_words.set_index(<span class="st">&#39;word&#39;</span>).to_dict()[<span class="st">&#39;n&#39;</span>]</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>dictNum <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> key, value <span class="kw">in</span> df_words_dic.items():</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(key, <span class="st">&quot;:&quot;</span>, value)</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>    dictNum <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> dictNum <span class="op">==</span> <span class="dv">15</span>:</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>      <span class="cf">break</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>읽/VV : 291
+책/NNG : 282
+사람/NNG : 147
+이야기/NNG : 145
+마음/NNG : 119
+있/VA : 113
+되/VV : 102
+재밌/VA : 97
+편의점/NNG : 95
+것/NNB : 94
+수/NNB : 91
+불편/NNG : 91
+좋/VA : 83
+보/VV : 82
+읽히/VV : 81
+</code></pre>
+</div>
+</div>
+<div id="RlMdRNDoKNYi" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:541}"
+data-executionInfo="{&quot;elapsed&quot;:30,&quot;status&quot;:&quot;error&quot;,&quot;timestamp&quot;:1684410347067,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="RlMdRNDoKNYi" data-outputId="0fd16875-5df9-4ed5-e885-bb90fa646014">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> wordcloud <span class="im">import</span> WordCloud</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image </span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>font <span class="op">=</span> <span class="st">&#39;drive/My Drive/DoHyeon-Regular.ttf&#39;</span></span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>word_cloud <span class="op">=</span> WordCloud(font_path <span class="op">=</span> font,</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a>                       width <span class="op">=</span> <span class="dv">2000</span>, height <span class="op">=</span> <span class="dv">1000</span>,</span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a>                       background_color<span class="op">=</span><span class="st">&#39;white&#39;</span>)</span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>word_cloud.generate_from_frequencies(df_words_dic)</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">15</span>))</span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a>plt.imshow(word_cloud)</span>
+<span id="cb45-15"><a href="#cb45-15" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">&quot;off&quot;</span>)</span>
+<span id="cb45-16"><a href="#cb45-16" aria-hidden="true" tabindex="-1"></a>plt.tight_layout(pad<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb45-17"><a href="#cb45-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output error" data-ename="ImportError"
+data-evalue="ignored">
+<pre><code>---------------------------------------------------------------------------
+ImportError                               Traceback (most recent call last)
+&lt;ipython-input-24-934cfbd66d18&gt; in &lt;cell line: 1&gt;()
+----&gt; 1 from wordcloud import WordCloud
+      2 from PIL import Image
+      3 import numpy as np
+      4 import matplotlib.pyplot as plt
+      5 
+
+/usr/local/lib/python3.10/dist-packages/wordcloud/__init__.py in &lt;module&gt;
+----&gt; 1 from .wordcloud import (WordCloud, STOPWORDS, random_color_func,
+      2                         get_single_color_func)
+      3 from .color_from_image import ImageColorGenerator
+      4 
+      5 __all__ = [&#39;WordCloud&#39;, &#39;STOPWORDS&#39;, &#39;random_color_func&#39;,
+
+/usr/local/lib/python3.10/dist-packages/wordcloud/wordcloud.py in &lt;module&gt;
+     26 from PIL import ImageDraw
+     27 from PIL import ImageFilter
+---&gt; 28 from PIL import ImageFont
+     29 
+     30 from .query_integral_image import query_integral_image
+
+/usr/local/lib/python3.10/dist-packages/PIL/ImageFont.py in &lt;module&gt;
+     36 from . import Image
+     37 from ._deprecate import deprecate
+---&gt; 38 from ._util import is_directory, is_path
+     39 
+     40 
+
+ImportError: cannot import name &#39;is_directory&#39; from &#39;PIL._util&#39; (/usr/local/lib/python3.10/dist-packages/PIL/_util.py)
+
+---------------------------------------------------------------------------
+NOTE: If your import is failing due to a missing package, you can
+manually install dependencies using either !pip or !apt.
+
+To view examples of installing some common dependencies, click the
+&quot;Open Examples&quot; button below.
+---------------------------------------------------------------------------
+
+</code></pre>
+</div>
+</div>
+<div id="SVtYSqzVKaHr" class="cell markdown" id="SVtYSqzVKaHr">
+<h1 id="8워드-클라우드-모양-변경하기">8.워드 클라우드 모양 변경하기</h1>
+</div>
+<div id="8iVyOw2yKjSf" class="cell code" id="8iVyOw2yKjSf">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> PIL</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>icon <span class="op">=</span> PIL.Image.<span class="bu">open</span>(<span class="st">&#39;drive/My Drive/cloud.png&#39;</span>)</span></code></pre></div>
+</div>
+<div id="MRV7xpZhLk9Z" class="cell code" id="MRV7xpZhLk9Z">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>img <span class="op">=</span> PIL.Image.new(<span class="st">&#39;RGB&#39;</span>, icon.size, (<span class="dv">255</span>, <span class="dv">255</span>, <span class="dv">255</span>))</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>img.paste(icon, icon)</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>img <span class="op">=</span> np.array(img)</span></code></pre></div>
+</div>
+<div id="KDtt0N4OL6zV" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:245}"
+data-executionInfo="{&quot;elapsed&quot;:8,&quot;status&quot;:&quot;error&quot;,&quot;timestamp&quot;:1684410376622,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="KDtt0N4OL6zV" data-outputId="7a343576-3055-43be-f0ab-c65f16e0686a">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>word_cloud <span class="op">=</span> WordCloud(random_state <span class="op">=</span> <span class="dv">1234</span>,</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>                       font_path <span class="op">=</span> font,</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>                       width <span class="op">=</span> <span class="dv">1000</span>, height <span class="op">=</span> <span class="dv">700</span>,</span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>                       background_color<span class="op">=</span><span class="st">&#39;white&#39;</span>,</span>
+<span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a>                       mask <span class="op">=</span> img)</span>
+<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-8"><a href="#cb49-8" aria-hidden="true" tabindex="-1"></a>img_word_cloud <span class="op">=</span> word_cloud.generate_from_frequencies(df_words_dic)</span>
+<span id="cb49-9"><a href="#cb49-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-10"><a href="#cb49-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">15</span>))</span>
+<span id="cb49-11"><a href="#cb49-11" aria-hidden="true" tabindex="-1"></a>plt.imshow(img_word_cloud)</span>
+<span id="cb49-12"><a href="#cb49-12" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">&quot;off&quot;</span>)</span>
+<span id="cb49-13"><a href="#cb49-13" aria-hidden="true" tabindex="-1"></a>plt.tight_layout(pad<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb49-14"><a href="#cb49-14" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output error" data-ename="NameError" data-evalue="ignored">
+<pre><code>---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+&lt;ipython-input-27-d32fb41e47e6&gt; in &lt;cell line: 2&gt;()
+      1 #
+----&gt; 2 word_cloud = WordCloud(random_state = 1234,
+      3                        font_path = font,
+      4                        width = 1000, height = 700,
+      5                        background_color=&#39;white&#39;,
+
+NameError: name &#39;WordCloud&#39; is not defined
+</code></pre>
+</div>
+</div>
+<div id="8lvpGlDGMpvU" class="cell markdown" id="8lvpGlDGMpvU">
+<h1
+id="9용어-색인-테이블concordance-table-사용하여-문맥-확인하기">9.용어
+색인 테이블(concordance table) 사용하여 문맥 확인하기</h1>
+</div>
+<div id="z4X7IpO1M4eD" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:12909,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410684566,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="z4X7IpO1M4eD" data-outputId="5f712663-1957-440e-dfde-47014cbb3992">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kiwipiepy <span class="im">import</span> Kiwi</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>kiwi <span class="op">=</span> Kiwi()</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>sentences <span class="op">=</span> kiwi.split_into_sents(thieves)</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>output <span class="op">=</span> <span class="bu">open</span>(<span class="st">&quot;drive/My Drive/도둑들_1000.txt&quot;</span>, <span class="st">&#39;w&#39;</span>, encoding<span class="op">=</span><span class="st">&#39;utf-8&#39;</span>)</span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>sentencesText <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> sentence <span class="kw">in</span> sentences:</span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a>  <span class="co">#</span></span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a>  eachPOSSentence <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a>  posTagout <span class="op">=</span> kiwi.tokenize(sentence.text)</span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> eachOut <span class="kw">in</span> posTagout:</span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a>    eachPOSSentence <span class="op">=</span> eachPOSSentence <span class="op">+</span> <span class="st">&quot; &quot;</span> <span class="op">+</span> eachOut[<span class="dv">0</span>]</span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-18"><a href="#cb51-18" aria-hidden="true" tabindex="-1"></a>  output.write(eachPOSSentence <span class="op">+</span> <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb51-19"><a href="#cb51-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-20"><a href="#cb51-20" aria-hidden="true" tabindex="-1"></a>  sentencesText <span class="op">=</span> sentencesText <span class="op">+</span> <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span> <span class="op">+</span> eachPOSSentence</span>
+<span id="cb51-21"><a href="#cb51-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(sentencesText[:<span class="dv">100</span>])</span>
+<span id="cb51-22"><a href="#cb51-22" aria-hidden="true" tabindex="-1"></a>output.close()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+ 재밌 어요
+ 드라마 로 도 나오 면 좋 겠 어요
+ 가해자 에게 서사 를 만들 어 주 는 진짜 마음 이 불편 하 어 지 ᆫ 이야기 술술 읽히 어요 옥수수 수염 차 마시 고 싶 다
+</code></pre>
+</div>
+</div>
+<div id="jcFbFhJuOHaI" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:12079,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410699922,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="jcFbFhJuOHaI" data-outputId="15c98169-9e82-40ac-e82d-c4d89967503d">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install nltk</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: nltk in /usr/local/lib/python3.10/dist-packages (3.8.1)
+Requirement already satisfied: click in /usr/local/lib/python3.10/dist-packages (from nltk) (8.1.3)
+Requirement already satisfied: joblib in /usr/local/lib/python3.10/dist-packages (from nltk) (1.2.0)
+Requirement already satisfied: regex&gt;=2021.8.3 in /usr/local/lib/python3.10/dist-packages (from nltk) (2022.10.31)
+Requirement already satisfied: tqdm in /usr/local/lib/python3.10/dist-packages (from nltk) (4.65.0)
+</code></pre>
+</div>
+</div>
+<div id="eP5DKNYuOiuw" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:1621,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410705278,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="eP5DKNYuOiuw" data-outputId="805617ad-e2f4-4afb-d90b-097ff1a06b30">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>retokenize <span class="op">=</span> RegexpTokenizer(<span class="st">&quot;[\w]+&quot;</span>)</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> Text(retokenize.tokenize(sentencesText))</span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>text.concordance(<span class="st">&quot;전지현&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>no matches
+</code></pre>
+</div>
+</div>
+<div id="Uyu-jU_WWUzJ" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:514,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410709651,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="Uyu-jU_WWUzJ" data-outputId="d68c12ff-b529-4d75-e5fa-9cbfd317c150">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>text.concordance(<span class="st">&quot;김수현&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>no matches
+</code></pre>
+</div>
+</div>
+<div id="grpOuAk8PC2x" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:723,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410713238,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="grpOuAk8PC2x" data-outputId="1ea1a65c-3202-443a-aa19-453503a8ab16">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>text.concordance(<span class="st">&quot;배우&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Displaying 7 of 7 matches:
+ 차 마시 고 싶 다 마음 이 따뜻 하 어 지 는 내용 들 인생 을 배우 었 어요 갈등 은 깊 고 해결 은 간단 하 어서 무슨 어린이 용 동
+이 ᆸ니다 우리 는 혼자 살아가 ᆯ 수 없 으며 소통 하 는 법 을 배우 어야 하 ᆫ다 저 의 삶 에 대하 어 되돌아보 게 되 었 습니다 불
+ 재밌 게 보 었 습니다 서로 가 다 손 님 이 ᆫ 거 ᆯ 또 하나 배우 어 가 ᆸ니다 읽 는 동안 따뜻하 었 어요 처음 오 어 ᆫ 독하 ᆫ
+네요 따뜻 하 고 적극 적 이 ᆫ 삶 의 태도 는 무엇 이 ᆫ가 를 배우 ᆫ다 오만 하 게 상대방 을 대하 지 말 자 한 명 한 명 소중 하
+재밌 어서 단숨에 읽 었 어요 세상 사람 들 과 소통 하 는 법 을 배우 고 인생 에 대하 어서 배우 ᆯ 수 있 는 마음 이 따뜻 하 어 지
+ 세상 사람 들 과 소통 하 는 법 을 배우 고 인생 에 대하 어서 배우 ᆯ 수 있 는 마음 이 따뜻 하 어 지 는 책 참 좋 은 글 년도 
+구 에게 나 익숙 하 ᆫ 편의점 평범 하 ᆫ 삶 의 이야기 속 에서 배우 는 인생 의 교훈 들 이 좋 었 습니다 나 의 안 에 조그마 하 ᆫ
+</code></pre>
+</div>
+</div>
+<div id="x6IYQ-mCPC9j" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:5,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410717529,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="x6IYQ-mCPC9j" data-outputId="ac0d8ab1-30ed-4bf0-8089-1fdb3fe53c49">
+<div class="sourceCode" id="cb61"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>text.concordance(<span class="st">&quot;감독&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Displaying 1 of 1 matches:
+공감 따뜻하 고 재밌 습니다 꼭 한 번 읽 어 보 기 를 옥섭 영화 감독 님 의 밉 은 사람 을 사랑 하 기 가 생각나 었 어요 저마다 사연
+</code></pre>
+</div>
+</div>
+<div id="UcdoPl0JQIdG" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:5,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410720509,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="UcdoPl0JQIdG" data-outputId="fcc66992-2404-4919-9a60-6b23f9b5c3ff">
+<div class="sourceCode" id="cb63"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a>text.concordance(<span class="st">&quot;스토리&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Displaying 12 of 12 matches:
+는 묘 하 ᆫ 끌리 ᆷ 이 있 네요 읽 는 내내 따뜻 하 어 지 는 스토리 이 ᆸ니다 출퇴근 길 에 재미나 게 금방 읽 었 습니다 초반 반전 
+ 수 도 있 고 진지 하 게 도 읽 을 수 있 으며 일상 적 이 ᆫ 스토리 가 너무 좋 었 어요 반전 드라마 를 보 는 기분 연결 성 이 엄청
+책 이 네요 베스트셀러 이 라서 기대 하 며 읽 었 지만 뻔 하 ᆫ 스토리 독고 아저씨 는 나 의 눈물 버튼 책 을 좋아하 지 않 었 지만 이
+ 하 었 어요 낭만 적 으로 잘 풀어내 었 지만 생각 보다 뻔하 ᆫ 스토리 나 의 기대 에 는 조금 못 미치 었 다 책 을 못 읽 어서 책 읽
+ 읽 을 수 있 는 소설 일상 속 에 있 을 법 하 ᆫ 사람 들 의 스토리 를 재미있 게 풀어내 었 다 한 방 에 다 읽 어 버리 었 다 참 
+읽 었 어요 가볍 게 읽 기 좋 고 마음 이 따뜻 하 어 지 는 책 스토리 가 너무 좋 습니다 굿 평범 하 ᆫ 일상 을 살 고 있 다 하지만 
+살 고 있 다 하지만 저 마다 의 대하소설 을 쓰 며 살 고 있 다 스토리 가 술술 읽히 네요 사람 에게 상처 받 지만 사람 으로부터 치유 받
+ 보 ᆯ 수 있 었 습니다 심리 를 세심 하 게 묘사 하 는 디테일 스토리 를 통하 어 사람 냄새 나 는 감동 을 주 어 좋 어요 완전 드라마
+ 고 읽 었 어요 앉 은 자리 에서 한 번 에 읽 을 수 있 는 책 스토리 로 되 어 있 어 좋 었 고 나 의 일상 중 하나 를 읽 은 느낌 
+습니다 가볍 게 읽 기 좋 은 듯 한 자리 에서 계속 읽 게 되 는 스토리 잔잔하 지만 불편 하 ᆫ 편의점 이 아니 고 따뜻하 ᆫ 편의점 같 
+ 따뜻 하 었 고 이따금 뭉클 하 었 다 순식간 에 읽 었 다 결말 스토리 가 약하 ᆫ 것 같 다 불편 하 ᆫ 편의점 역설 적 으로 들리 지만
+내용 도 없 고 결국 의사 만 나쁘 ᆫ 놈 으로 만드 ᆫ 뻔 하 ᆫ 스토리 시간 이 아깝 습니다 책 속 의 인물 들 의 특성 이 잘 살 어 있
+</code></pre>
+</div>
+</div>
+<div id="SJfo0uQeV2wb" class="cell markdown" id="SJfo0uQeV2wb">
+<h1 id="10문서-내에서-단어가-사용된-위치-확인하기">10.문서 내에서 단어가
+사용된 위치 확인하기</h1>
+</div>
+<div id="ZlAxdCfzV9Rg" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+data-executionInfo="{&quot;elapsed&quot;:2405,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410731103,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="ZlAxdCfzV9Rg" data-outputId="87815406-015c-48e2-8779-15a19b8bcf33">
+<div class="sourceCode" id="cb65"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a>text.dispersion_plot([<span class="st">&quot;전지현&quot;</span>, <span class="st">&quot;김수현&quot;</span>, <span class="st">&quot;이정재&quot;</span>, <span class="st">&quot;김혜수&quot;</span>, <span class="st">&quot;김윤석&quot;</span>, <span class="st">&quot;최동훈&quot;</span>, <span class="st">&quot;배우&quot;</span>, <span class="st">&quot;감독&quot;</span>, <span class="st">&quot;스토리&quot;</span>])</span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51204 (\N{HANGUL SYLLABLE JEON}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51648 (\N{HANGUL SYLLABLE JI}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 54788 (\N{HANGUL SYLLABLE HYEON}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44608 (\N{HANGUL SYLLABLE GIM}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49688 (\N{HANGUL SYLLABLE SU}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51060 (\N{HANGUL SYLLABLE I}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51221 (\N{HANGUL SYLLABLE JEONG}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 51116 (\N{HANGUL SYLLABLE JAE}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 54812 (\N{HANGUL SYLLABLE HYE}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 50980 (\N{HANGUL SYLLABLE YUN}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49437 (\N{HANGUL SYLLABLE SEOG}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 52572 (\N{HANGUL SYLLABLE COE}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46041 (\N{HANGUL SYLLABLE DONG}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 54984 (\N{HANGUL SYLLABLE HUN}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 48176 (\N{HANGUL SYLLABLE BAE}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 50864 (\N{HANGUL SYLLABLE U}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 44048 (\N{HANGUL SYLLABLE GAM}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 46021 (\N{HANGUL SYLLABLE DOG}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 49828 (\N{HANGUL SYLLABLE SEU}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 53664 (\N{HANGUL SYLLABLE TO}) missing from current font.
+  func(*args, **kwargs)
+/usr/local/lib/python3.10/dist-packages/IPython/core/events.py:89: UserWarning: Glyph 47532 (\N{HANGUL SYLLABLE RI}) missing from current font.
+  func(*args, **kwargs)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51204 (\N{HANGUL SYLLABLE JEON}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51648 (\N{HANGUL SYLLABLE JI}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 54788 (\N{HANGUL SYLLABLE HYEON}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44608 (\N{HANGUL SYLLABLE GIM}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49688 (\N{HANGUL SYLLABLE SU}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51060 (\N{HANGUL SYLLABLE I}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51221 (\N{HANGUL SYLLABLE JEONG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 51116 (\N{HANGUL SYLLABLE JAE}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 54812 (\N{HANGUL SYLLABLE HYE}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 50980 (\N{HANGUL SYLLABLE YUN}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49437 (\N{HANGUL SYLLABLE SEOG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 52572 (\N{HANGUL SYLLABLE COE}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46041 (\N{HANGUL SYLLABLE DONG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 54984 (\N{HANGUL SYLLABLE HUN}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 48176 (\N{HANGUL SYLLABLE BAE}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 50864 (\N{HANGUL SYLLABLE U}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 44048 (\N{HANGUL SYLLABLE GAM}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 46021 (\N{HANGUL SYLLABLE DOG}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 49828 (\N{HANGUL SYLLABLE SEU}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 53664 (\N{HANGUL SYLLABLE TO}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+/usr/local/lib/python3.10/dist-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 47532 (\N{HANGUL SYLLABLE RI}) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+WARNING:matplotlib.font_manager:findfont: Font family &#39;NanumBarunGothic&#39; not found.
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_554ca64c85434ec3945cb3286bb044d9/1738eff8ea184f2b556221fccec3addbb9868046.png" /></p>
+</div>
+</div>
+<div id="ZNbXximlU_oA" class="cell markdown" id="ZNbXximlU_oA">
+<h1 id="11주어진-단어와-유사한-단어-확인">11.주어진 단어와 유사한 단어
+확인</h1>
+</div>
+<div id="-K3O-3JYVIQc" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:3,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410741242,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="-K3O-3JYVIQc" data-outputId="e2a46820-8313-4e2d-ca5f-fc51cba9a245">
+<div class="sourceCode" id="cb67"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a>text.similar(<span class="st">&quot;전지현&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>No matches
+</code></pre>
+</div>
+</div>
+<div id="zA9tq6ZPVkHd" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:3,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410741243,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="zA9tq6ZPVkHd" data-outputId="023a7848-a561-40e3-9148-70b3d4723652">
+<div class="sourceCode" id="cb69"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a>text.similar(<span class="st">&quot;김수현&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>No matches
+</code></pre>
+</div>
+</div>
+<div id="pa8kbSuDVZ4s" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:1025,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410742831,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="pa8kbSuDVZ4s" data-outputId="48bfd911-dde7-4287-cfd5-a94742e88123">
+<div class="sourceCode" id="cb71"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a>text.similar(<span class="st">&quot;배우&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>보 하 받 읽 느끼 만나 얻 주 살 나누 접하 내 담 알 오가 돌아보 가지 고르 오 깨닫
+</code></pre>
+</div>
+</div>
+<div id="VdHLm4OKWcib" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:4,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410743240,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="VdHLm4OKWcib" data-outputId="e404910e-3b86-448c-e11a-1a131ec783ba">
+<div class="sourceCode" id="cb73"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a>text.similar(<span class="st">&quot;감독&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+</code></pre>
+</div>
+</div>
+<div id="6kcITCfFWdC7" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:521,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684410745502,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="6kcITCfFWdC7" data-outputId="69171f77-f879-4e54-d246-3b75e23ad67c">
+<div class="sourceCode" id="cb75"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a>text.similar(<span class="st">&quot;스토리&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>이야기 책 얘기 독고 이유 순간 우리 드라마 서사 마음 내용 인생 기분 소설 편 감동 사람 서로 과정 거
+</code></pre>
+</div>
+</div>
+<div id="XjnE729u6SOI" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:3386,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1684414682475,&quot;user&quot;:{&quot;displayName&quot;:&quot;이다연&quot;,&quot;userId&quot;:&quot;02813066568458432567&quot;},&quot;user_tz&quot;:-540}"
+id="XjnE729u6SOI" data-outputId="49641715-49fd-4bc1-b364-4a83add8eebb">
+<div class="sourceCode" id="cb77"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> jupyter nbconvert <span class="op">--</span>to html <span class="st">&quot;/drive/mydrive/BDA_week_10_withCode.ipynb&quot;</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[NbConvertApp] WARNING | pattern &#39;/drive/mydrive/BDA_week_10_withCode.ipynb&#39; matched no files
+This application is used to convert notebook files (*.ipynb)
+        to various other formats.
+
+        WARNING: THE COMMANDLINE INTERFACE MAY CHANGE IN FUTURE RELEASES.
+
+Options
+=======
+The options below are convenience aliases to configurable class-options,
+as listed in the &quot;Equivalent to&quot; description-line of the aliases.
+To see all configurable class-options for some &lt;cmd&gt;, use:
+    &lt;cmd&gt; --help-all
+
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+    Equivalent to: [--Application.log_level=10]
+--show-config
+    Show the application&#39;s configuration (human-readable format)
+    Equivalent to: [--Application.show_config=True]
+--show-config-json
+    Show the application&#39;s configuration (json format)
+    Equivalent to: [--Application.show_config_json=True]
+--generate-config
+    generate default config file
+    Equivalent to: [--JupyterApp.generate_config=True]
+-y
+    Answer yes to any questions instead of prompting.
+    Equivalent to: [--JupyterApp.answer_yes=True]
+--execute
+    Execute the notebook prior to export.
+    Equivalent to: [--ExecutePreprocessor.enabled=True]
+--allow-errors
+    Continue notebook execution even if one of the cells throws an error and include the error message in the cell output (the default behaviour is to abort conversion). This flag is only relevant if &#39;--execute&#39; was specified, too.
+    Equivalent to: [--ExecutePreprocessor.allow_errors=True]
+--stdin
+    read a single notebook file from stdin. Write the resulting notebook with default basename &#39;notebook.*&#39;
+    Equivalent to: [--NbConvertApp.from_stdin=True]
+--stdout
+    Write notebook output to stdout instead of files.
+    Equivalent to: [--NbConvertApp.writer_class=StdoutWriter]
+--inplace
+    Run nbconvert in place, overwriting the existing notebook (only
+            relevant when converting to notebook format)
+    Equivalent to: [--NbConvertApp.use_output_suffix=False --NbConvertApp.export_format=notebook --FilesWriter.build_directory=]
+--clear-output
+    Clear output of current file and save in place,
+            overwriting the existing notebook.
+    Equivalent to: [--NbConvertApp.use_output_suffix=False --NbConvertApp.export_format=notebook --FilesWriter.build_directory= --ClearOutputPreprocessor.enabled=True]
+--no-prompt
+    Exclude input and output prompts from converted document.
+    Equivalent to: [--TemplateExporter.exclude_input_prompt=True --TemplateExporter.exclude_output_prompt=True]
+--no-input
+    Exclude input cells and output prompts from converted document.
+            This mode is ideal for generating code-free reports.
+    Equivalent to: [--TemplateExporter.exclude_output_prompt=True --TemplateExporter.exclude_input=True --TemplateExporter.exclude_input_prompt=True]
+--allow-chromium-download
+    Whether to allow downloading chromium if no suitable version is found on the system.
+    Equivalent to: [--WebPDFExporter.allow_chromium_download=True]
+--disable-chromium-sandbox
+    Disable chromium security sandbox when converting to PDF..
+    Equivalent to: [--WebPDFExporter.disable_sandbox=True]
+--show-input
+    Shows code input. This flag is only useful for dejavu users.
+    Equivalent to: [--TemplateExporter.exclude_input=False]
+--embed-images
+    Embed the images as base64 dataurls in the output. This flag is only useful for the HTML/WebPDF/Slides exports.
+    Equivalent to: [--HTMLExporter.embed_images=True]
+--sanitize-html
+    Whether the HTML in Markdown cells and cell outputs should be sanitized..
+    Equivalent to: [--HTMLExporter.sanitize_html=True]
+--log-level=&lt;Enum&gt;
+    Set the log level by value or name.
+    Choices: any of [0, 10, 20, 30, 40, 50, &#39;DEBUG&#39;, &#39;INFO&#39;, &#39;WARN&#39;, &#39;ERROR&#39;, &#39;CRITICAL&#39;]
+    Default: 30
+    Equivalent to: [--Application.log_level]
+--config=&lt;Unicode&gt;
+    Full path of a config file.
+    Default: &#39;&#39;
+    Equivalent to: [--JupyterApp.config_file]
+--to=&lt;Unicode&gt;
+    The export format to be used, either one of the built-in formats
+            [&#39;asciidoc&#39;, &#39;custom&#39;, &#39;html&#39;, &#39;latex&#39;, &#39;markdown&#39;, &#39;notebook&#39;, &#39;pdf&#39;, &#39;python&#39;, &#39;rst&#39;, &#39;script&#39;, &#39;slides&#39;, &#39;webpdf&#39;]
+            or a dotted object name that represents the import path for an
+            ``Exporter`` class
+    Default: &#39;&#39;
+    Equivalent to: [--NbConvertApp.export_format]
+--template=&lt;Unicode&gt;
+    Name of the template to use
+    Default: &#39;&#39;
+    Equivalent to: [--TemplateExporter.template_name]
+--template-file=&lt;Unicode&gt;
+    Name of the template file to use
+    Default: None
+    Equivalent to: [--TemplateExporter.template_file]
+--theme=&lt;Unicode&gt;
+    Template specific theme(e.g. the name of a JupyterLab CSS theme distributed
+    as prebuilt extension for the lab template)
+    Default: &#39;light&#39;
+    Equivalent to: [--HTMLExporter.theme]
+--sanitize_html=&lt;Bool&gt;
+    Whether the HTML in Markdown cells and cell outputs should be sanitized.This
+    should be set to True by nbviewer or similar tools.
+    Default: False
+    Equivalent to: [--HTMLExporter.sanitize_html]
+--writer=&lt;DottedObjectName&gt;
+    Writer class used to write the
+                                        results of the conversion
+    Default: &#39;FilesWriter&#39;
+    Equivalent to: [--NbConvertApp.writer_class]
+--post=&lt;DottedOrNone&gt;
+    PostProcessor class used to write the
+                                        results of the conversion
+    Default: &#39;&#39;
+    Equivalent to: [--NbConvertApp.postprocessor_class]
+--output=&lt;Unicode&gt;
+    overwrite base name use for output files.
+                can only be used when converting one notebook at a time.
+    Default: &#39;&#39;
+    Equivalent to: [--NbConvertApp.output_base]
+--output-dir=&lt;Unicode&gt;
+    Directory to write output(s) to. Defaults
+                                  to output to the directory of each notebook. To recover
+                                  previous default behaviour (outputting to the current
+                                  working directory) use . as the flag value.
+    Default: &#39;&#39;
+    Equivalent to: [--FilesWriter.build_directory]
+--reveal-prefix=&lt;Unicode&gt;
+    The URL prefix for reveal.js (version 3.x).
+            This defaults to the reveal CDN, but can be any url pointing to a copy
+            of reveal.js.
+            For speaker notes to work, this must be a relative path to a local
+            copy of reveal.js: e.g., &quot;reveal.js&quot;.
+            If a relative path is given, it must be a subdirectory of the
+            current directory (from which the server is run).
+            See the usage documentation
+            (https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow)
+            for more details.
+    Default: &#39;&#39;
+    Equivalent to: [--SlidesExporter.reveal_url_prefix]
+--nbformat=&lt;Enum&gt;
+    The nbformat version to write.
+            Use this to downgrade notebooks.
+    Choices: any of [1, 2, 3, 4]
+    Default: 4
+    Equivalent to: [--NotebookExporter.nbformat_version]
+
+Examples
+--------
+
+    The simplest way to use nbconvert is
+
+            &gt; jupyter nbconvert mynotebook.ipynb --to html
+
+            Options include [&#39;asciidoc&#39;, &#39;custom&#39;, &#39;html&#39;, &#39;latex&#39;, &#39;markdown&#39;, &#39;notebook&#39;, &#39;pdf&#39;, &#39;python&#39;, &#39;rst&#39;, &#39;script&#39;, &#39;slides&#39;, &#39;webpdf&#39;].
+
+            &gt; jupyter nbconvert --to latex mynotebook.ipynb
+
+            Both HTML and LaTeX support multiple output templates. LaTeX includes
+            &#39;base&#39;, &#39;article&#39; and &#39;report&#39;.  HTML includes &#39;basic&#39;, &#39;lab&#39; and
+            &#39;classic&#39;. You can specify the flavor of the format used.
+
+            &gt; jupyter nbconvert --to html --template lab mynotebook.ipynb
+
+            You can also pipe the output to stdout, rather than a file
+
+            &gt; jupyter nbconvert mynotebook.ipynb --stdout
+
+            PDF is generated via latex
+
+            &gt; jupyter nbconvert mynotebook.ipynb --to pdf
+
+            You can get (and serve) a Reveal.js-powered slideshow
+
+            &gt; jupyter nbconvert myslides.ipynb --to slides --post serve
+
+            Multiple notebooks can be given at the command line in a couple of
+            different ways:
+
+            &gt; jupyter nbconvert notebook*.ipynb
+            &gt; jupyter nbconvert notebook1.ipynb notebook2.ipynb
+
+            or you can specify the notebooks list in a config file, containing::
+
+                c.NbConvertApp.notebooks = [&quot;my_notebook.ipynb&quot;]
+
+            &gt; jupyter nbconvert --config mycfg.py
+
+To see all available configurables, use `--help-all`.
+
+</code></pre>
+</div>
+</div>
+</body>
+</html>
